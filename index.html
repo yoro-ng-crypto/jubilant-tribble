@@ -7,6 +7,9 @@
     <style>
         body{
             margin-top: 0%;
+            margin-bottom: %;
+            margin-left: 10%;
+            margin-right: 10%;
         
         }
         h1{
@@ -35,17 +38,17 @@
        <div class="purpul">
         <form >
         <label for="">FIRST NAME</label>
-         &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" required>
+         &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" maxlength="30" required>
         <label for="">(max 30 character a-z and A-Z)</label>
         <br>
         <br>
         <label for="">LAST NAME</label>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" required>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" maxlength="30" required>
         <label for="">(max 30 character a-z and A-Z)</label>
         <br>
         <br>
         <label for="">DATE OF <br> BIRTH</label>
-         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="date" name="" id="" required>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="date" name="" id=""  required>
         <br>
         <br>
         <label for="">EMAIL ID</label>
@@ -69,18 +72,18 @@
         <br>
         <br>
         <label for="">CITY</label>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" required>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" maxlength="30" required>
         <label for="">(max 30 character a-z and A-Z)</label>
         <br>
         <br>
         <label for="">PINCODE</label>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="tel" required>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="tel" maxlength="6" required>
          <label for="">(6 digit)</label>
         <br>
         <br>
         
         <label for="">STATE</label>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" required>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" maxlength="30" required>
         <label for="">(max 30 character a-z and A-Z)</label>
         <br>
         <br>
@@ -118,13 +121,15 @@
         <label for="">QUALIFICATION</label>
         <table>
             <tr>
-                <th>S.No. Examination</th>
+                <th>SI.NO</th>
+                <th> Examination</th>
                 <th><center>Board</center></th>
                 <th><center>Percentage</center></th>
                 <th><center>Year Of Passing</center></th>
             </tr>
 
             <tr>
+                <th>1</th>
                 <th>Class X</th>
                 <td><input type="text" name="" id="" maxlength="10"></td>
                 <td><input type="number" name="" id=""></td>
@@ -132,6 +137,7 @@
             </tr>
 
             <tr>
+                <th>2</th>
                 <th>Class XII</th>
                 <td><input type="text" name="" id="" maxlength="10"></td>
                 <td><input type="number" name="" id=""></td>
@@ -139,6 +145,7 @@
             </tr>
 
             <tr>
+                <th>3</th>
                 <th>Graduation</th>
                 <td><input type="text" name="" id="" maxlength="10"></td>
                 <td><input type="number" name="" id=""></td>
@@ -146,6 +153,7 @@
             </tr>
 
             <tr>
+                <th>4</th>
                 <th>Master</th>
                 <td><input type="text" name="" id="" maxlength="10"></td>
                 <td><input type="number" name="" id=""></td>
@@ -164,7 +172,7 @@
             APPLIED <br> FOR
           </label>
           
-          <label for="">B.CA</label>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label for="">B.CA</label>
           <input type="radio" name="a" id="">
           <label for="">B.Com</label>
           <input type="radio" name="a" id="">
