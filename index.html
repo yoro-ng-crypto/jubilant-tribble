@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        body{
+            margin-top: 0%;
+        
+        }
+        h1{
+            color:  rgb(101, 79, 199);
+        }
+        .purpul{
+            border: 1px solid rgb(65, 36, 172);
+            border-radius: 5px;
+            background-color: rgb(101, 79, 199);
+        }
+        table{
+            display: flex;
+            justify-self: center;
+            left: 40%;
+        }
+        .conatiner{
+            display: flex;
+            justify-self: center;
+        }
+    </style>
+</head>
+<body>
+        <center><h1><u>STUDENT REGISTRATION FORM</u></h1>
+        </center>
+        <br>
+       <div class="purpul">
+        <form >
+        <label for="">FIRST NAME</label>
+         &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" required>
+        <label for="">(max 30 character a-z and A-Z)</label>
+        <br>
+        <br>
+        <label for="">LAST NAME</label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" required>
+        <label for="">(max 30 character a-z and A-Z)</label>
+        <br>
+        <br>
+        <label for="">DATE OF <br> BIRTH</label>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="date" name="" id="" required>
+        <br>
+        <br>
+        <label for="">EMAIL ID</label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="email" placeholder="enter your email" required>
+        <br>
+        <br>
+        <label for="">MOBILE  <br> NUMBER</label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="tel" required>
+        <br>
+        <br>
+        
+        <label for="">GENDER</label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label for="">male</label>
+        <input type="radio" name="a" value="m" required>
+        <label for="">female</label>
+        <input type="radio" name="a" value="f" required>
+        <br>
+        <br>
+        <label for="">ADDRESS</label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<textarea name="adress" id="" rows="4" cols="29">type your address</textarea>
+        <br>
+        <br>
+        <label for="">CITY</label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" required>
+        <label for="">(max 30 character a-z and A-Z)</label>
+        <br>
+        <br>
+        <label for="">PINCODE</label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="tel" required>
+         <label for="">(6 digit)</label>
+        <br>
+        <br>
+        
+        <label for="">STATE</label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" required>
+        <label for="">(max 30 character a-z and A-Z)</label>
+        <br>
+        <br>
+        <label for="">COUNTRY</label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select name="" id="">
+        <option value="">INDIA</option>
+        <option value="">AMERICA</option>
+        <option value="">JAPAN</option>
+        <option value="">RUSSISA</option>
+        <option value="">THAILAND</option>
+        </select>
+        <br>
+        <br>
+        <label for=""> HOBBIES</label>
+        
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label for="">Darwing</label>
+            <input type="checkbox" name="" id="">
+
+            <label for="">Singing</label>
+            <input type="checkbox" name="" id="">
+
+            <label for="">Dancing</label>
+            <input type="checkbox" name="" id="">
+
+            <label for="">Sketching</label>
+            <input type="checkbox" name="" id="">
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label for="">Other</label>
+            <input type="checkbox" name="" id="">
+            <input type="text" name="" id="">
+        
+        <br>
+        <br>
+        <br>
+        <label for="">QUALIFICATION</label>
+        <table>
+            <tr>
+                <th>S.No. Examination</th>
+                <th><center>Board</center></th>
+                <th><center>Percentage</center></th>
+                <th><center>Year Of Passing</center></th>
+            </tr>
+
+            <tr>
+                <th>Class X</th>
+                <td><input type="text" name="" id="" maxlength="10"></td>
+                <td><input type="number" name="" id=""></td>
+                <td><input type="tel" name="" id="" maxlength="4"></td>
+            </tr>
+
+            <tr>
+                <th>Class XII</th>
+                <td><input type="text" name="" id="" maxlength="10"></td>
+                <td><input type="number" name="" id=""></td>
+                <td><input type="tel" name="" id="" maxlength="4"></td>
+            </tr>
+
+            <tr>
+                <th>Graduation</th>
+                <td><input type="text" name="" id="" maxlength="10"></td>
+                <td><input type="number" name="" id=""></td>
+                <td><input type="tel" name="" id="" maxlength="4"></td>
+            </tr>
+
+            <tr>
+                <th>Master</th>
+                <td><input type="text" name="" id="" maxlength="10"></td>
+                <td><input type="number" name="" id=""></td>
+                <td><input type="tel" name="" id="" maxlength="4"></td>
+            </tr>
+            <tr>
+                <th></th>
+                <td><center>(10 char max)</center></td>
+                <td><center>(upto 2 decimal)</center></td>
+                <td></td>  
+            </tr>
+        </table>
+        <br>
+        <br>
+          <label for="">COURSE <br>
+            APPLIED <br> FOR
+          </label>
+          
+          <label for="">B.CA</label>
+          <input type="radio" name="a" id="">
+          <label for="">B.Com</label>
+          <input type="radio" name="a" id="">
+          <label for="">B.Sc</label>
+          <input type="radio" name="a" id="">
+          <label for="">B.A</label>
+          <input type="radio" name="a" id="">
+          <br>
+          <br>
+          <div class="conatiner">
+             <button>submit</button>
+             <button>Reset</button>
+          </div>
+         
+
+    </form>
+       </div>
+</body>
+</html>
